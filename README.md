@@ -66,14 +66,14 @@ ToolVersionPurposeLocationSplunk Enterprise10.xSIEM — Log ingestion, search, a
 
 📋 Project Phases
 
-PhaseTitleDescriptionStatus1Project PlanningScope, objectives, architecture design✅ Complete2Environment SetupVirtualBox, Windows VM, Kali VM, Splunk, Sysmon✅ Complete3Endpoint MonitoringSysmon config, Windows auditing, Splunk log ingestion✅ Complete4Identity & Access ManagementEmployee dataset, local Windows accounts✅ Complete5Password Security AuditHash generation, John the Ripper cracking, audit report✅ Complete6Threat DetectionSplunk alerts — brute force, privilege escalation, off-hours✅ Complete7Attack SimulationSMB brute-force via netexec from Kali Linux✅ Complete8Incident InvestigationIOC analysis, timeline reconstruction, incident report✅ Complete9Risk AssessmentPer-account risk scoring (Low/Medium/High/Critical)✅ Complete10Security Report GenerationFull SOC final report with evidence and recommendations✅ Complete
+PhaseTitleDescriptionStatus1Project PlanningScope, objectives, architecture design Complete2Environment SetupVirtualBox, Windows VM, Kali VM, Splunk, Sysmon Complete3Endpoint MonitoringSysmon config, Windows auditing, Splunk log ingestion Complete4Identity & Access ManagementEmployee dataset, local Windows accounts Complete5Password Security AuditHash generation, John the Ripper cracking, audit report Complete6Threat DetectionSplunk alerts — brute force, privilege escalation, off-hours Complete7Attack SimulationSMB brute-force via netexec from Kali Linux Complete8Incident InvestigationIOC analysis, timeline reconstruction, incident report Complete9Risk AssessmentPer-account risk scoring (Low/Medium/High/Critical) Complete10Security Report GenerationFull SOC final report with evidence and recommendations Complete
 
 
 🔑 Key Findings
 
 Password Security Audit
 
-AccountPasswordLengthCracked?ReasonjcarterPassword12311✅ YESDictionary word + number suffixrwilson1234566✅ YESMost common password globallymlopezSummer2024!11❌ NoSeasonal pattern but not in top wordlistsjohnsonTr0ub4dor&3xQp9!16❌ NoLong, complex, high entropycleeK7#mP9$vL2qX12❌ NoRandom, no dictionary basis
+AccountPasswordLengthCracked?ReasonjcarterPassword12311 YESDictionary word + number suffixrwilson1234566 YESMost common password globallymlopezSummer2024!11 NoSeasonal pattern but not in top wordlistsjohnsonTr0ub4dor&3xQp9!16 NoLong, complex, high entropycleeK7#mP9$vL2qX12 NoRandom, no dictionary basis
 
 
 2 of 5 accounts (40%) cracked within seconds using rockyou.txt wordlist
