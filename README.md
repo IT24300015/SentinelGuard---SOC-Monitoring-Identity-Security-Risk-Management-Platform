@@ -22,7 +22,7 @@ This project combines three cybersecurity domains into one platform:
 
 🎯 SOC Skills Demonstrated
 
-SkillTool/Method✅ SIEM OperationsSplunk Enterprise✅ Endpoint MonitoringSysmon + Windows Event Logs✅ Log AnalysisSplunk Search & Reporting✅ Threat DetectionCustom Splunk Alerts✅ Alert ManagementScheduled Cron Alerts in Splunk✅ Identity SecuritySimulated Employee Dataset + Local Accounts✅ Password SecurityJohn the Ripper + OpenSSL SHA-512✅ Attack SimulationKali Linux + netexec SMB Brute-Force✅ Incident InvestigationIOC Analysis + Timeline Reconstruction✅ Risk AssessmentPer-Account Risk Scoring (Low/Medium/High/Critical)✅ Security ReportingFull SOC Final Report (PDF + DOCX)
+SkillTool/Method SIEM OperationsSplunk Enterprise Endpoint MonitoringSysmon + Windows Event Logs Log AnalysisSplunk Search & Reporting Threat DetectionCustom Splunk Alerts Alert ManagementScheduled Cron Alerts in Splunk Identity SecuritySimulated Employee Dataset + Local Accounts Password SecurityJohn the Ripper + OpenSSL SHA-512 Attack SimulationKali Linux + netexec SMB Brute-Force Incident InvestigationIOC Analysis + Timeline Reconstruction Risk AssessmentPer-Account Risk Scoring (Low/Medium/High/Critical) Security ReportingFull SOC Final Report (PDF + DOCX)
 
 
 🏗️ System Architecture
